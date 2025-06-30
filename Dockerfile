@@ -4,7 +4,7 @@ USER node
 
 WORKDIR /home/node/code
 
-COPY --chown=node . .
+COPY --chown=node:node package-lock.json package.json ./
 
 RUN npm ci
 
