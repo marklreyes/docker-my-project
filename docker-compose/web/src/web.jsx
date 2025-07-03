@@ -1,7 +1,7 @@
 import { createRoot, useState } from "react-dom/client";
 import { useState, useEffect } from "react";
 
-const API_URL = process.env.API_URL || "http://localhost:8080";
+const API_URL = process.env.API_URL || "http://localhost:8080/api";
 
 console.log("API_URL", API_URL);
 console.log("env", process.env.API_URL);
